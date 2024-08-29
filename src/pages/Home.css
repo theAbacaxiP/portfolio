@@ -1,0 +1,29 @@
+.parent {
+  display: absolute;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  overflow: hidden;
+  background-color: rgba(245, 168, 138, 0.978);
+}
+
+.hero {
+  z-index: -1;
+  overflow: hidden;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+}
+.contents {
+  background-color: #131015;
+  height:100%;
+  width: 100%;
+  left: 0;
+  z-index: -1;
+  justify-content: center;
+  align-content: top;
+  display: relative;
+}
+

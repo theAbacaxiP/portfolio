@@ -1,0 +1,142 @@
+.post-nav-screen {
+  position: absolute;
+  display: inline-flex;
+  flex-direction: column;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.post-nav-title {
+  margin-top: 70px;
+  z-index: 20;
+}
+
+.post-nav-container {
+  display: grid;
+  margin-bottom: auto;
+  top: 50px;
+  left: 0px;
+  width: auto;
+  height: auto;
+  max-width: 1200px;
+  min-height: calc(100% - 148px);
+  background-color: transparent;
+}
+
+.post-nav-wallpaper {
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  opacity: 8%;
+  display: flex;
+  position: absolute;
+  min-width: 800px;
+}
+
+.thumbnail-container {
+  z-index: 20;
+  display: grid;
+  width: 100%;
+  background-color: transparent;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(
+    auto-fit,
+    minmax(var(--grid-row-breakpoint), 1fr)
+  );
+  height: auto;
+}
+
+.post-nav-footer {
+  width: 100%;
+  display: flex;
+  float: bottom;
+  position: relative;
+}
+
+@media only screen and (max-width: 1341px) {
+  .thumbnail-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media only screen and (max-width: 1005px) {
+  .thumbnail-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.thumbnail {
+  height: 27vh;
+  width: 30vw;
+  min-width: 165px;
+  max-width: 290px;
+  min-height: 150px;
+  max-height: 250px;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 15px;
+  border: 2px solid;
+  margin: 5px;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  text-decoration: none;
+  text-decoration-line: none;
+  color: #c2c2c2;
+  transition: all 130ms linear;
+}
+
+.thumbnail:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.thumbnail-contents {
+  position: relative;
+  align-self: center;
+  display: inline-flex;
+  flex-direction: column;
+  height: 90%;
+  width: 90%;
+  min-width: 148px;
+  margin: auto auto;
+  max-width: 90%;
+}
+
+.thumbnail-image-container {
+  position: relative;
+  align-self: center;
+  height: 70%;
+  width: 100%;
+  min-width: 148px;
+  overflow: hidden;
+  float: top;
+}
+
+.thumbnail-image {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 0px;
+  left: 0px;
+}
+
+.thumbnail-title {
+  position: relative;
+  align-self: center;
+  height: 30%;
+  width: calc(100% - 20px);
+  min-width: 148px;
+  overflow: hidden;
+  float: bottom;
+  padding: 10px;
+  text-decoration: none;
+  text-decoration-line: none;
+  transition: all 75ms linear;
+}
+
+.thumbnail:hover {
+  color: #ffffff;
+}

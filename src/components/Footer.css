@@ -1,0 +1,63 @@
+.Footer {
+  position: relative;
+  background-color: #131015;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4px;
+}
+
+.link {
+  display: inline-block;
+  margin-bottom: 1px;
+}
+
+.footer-link {
+  font-size: 13px;
+  color: #f5f5f5;
+  line-height: 25px;
+  float: left;
+  text-decoration: none;
+}
+
+.ico {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-right: 10px;
+  margin-top: 3px;
+}
+
+.ico_round {
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-top: 3px;
+}
+
+.footer-link:hover {
+  color: #cecdcd;
+}
+
+.attribution {
+  font-size: 10px;
+  color: #555555;
+}
+
+@media only screen and (max-width: 900px) {
+  .footer-link {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .footer-link {
+    font-size: 9px;
+  }
+}

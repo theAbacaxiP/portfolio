@@ -1,0 +1,42 @@
+.btn {
+  padding: 0px 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn--nav {
+  background-color: #fafafadd;
+  color: #242424;
+  border: 1px solid #fafafadd;
+  padding: 8px 10px 8px 10px;
+  font-size: 70%;
+  border-radius: 8px;
+  top: 0;
+  justify-content: center;
+  text-align: center;
+}
+
+@media (hover: hover) {
+  .btn--nav:hover {
+    background: #e4e4e4dd;
+    color: #242424;
+    transition: all 200ms ease-in-out;
+  }
+}
+
+.btn--nav:active {
+  background: #e4e4e4dd;
+  transition: all 100ms ease-in-out;
+}
+
+.btn--nav-ico {
+  background-color: #fff;
+  color: #242424;
+  border: 1px solid #fff;
+  padding: 8px 0px 8px 10px;
+  font-size: 80%;
+  border-radius: 8px;
+  top: 0;
+  margin-top: 16px;
+}

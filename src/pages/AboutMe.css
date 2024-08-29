@@ -1,0 +1,162 @@
+.about-me-fullscreen {
+  background-color: #313036;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  top: 0;
+  left: 0;
+  display: inline-flex;
+  flex-direction: column;
+  position: absolute;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.about-me-container {
+  background-color: transparent;
+  width: 90%;
+  height: auto;
+  display: flex;
+  max-width: 1000px;
+  align-self: center;
+  position: relative;
+  float: top;
+  margin-top: 70px;
+  margin-bottom: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.general-contents {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: left;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.about-me-bio {
+  max-width: 600px;
+  float: left;
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: #d8ccc4;
+  margin: 0 auto;
+  text-wrap: normal;
+  border-radius: 15px;
+}
+
+.about-me-img {
+  position: relative;
+  margin: 10px;
+  float: right;
+  min-width: 200px;
+  min-height: 250px;
+  height: 270px;
+  width: 200px;
+  background-color: transparent;
+  shape-outside: url(../Assets/about-me-transparent.png);
+}
+
+.title-text {
+  position: relative;
+  height: auto;
+  padding: 0px 10px;
+  text-wrap: normal;
+  color: #1e2124;
+  font-size: 22px;
+}
+
+.about-me-bio-text {
+  position: relative;
+  height: auto;
+  padding: 0px 10px;
+  text-wrap: normal;
+  color: #1e2124;
+  font-size: 12px;
+}
+
+.certs {
+  max-width: 400px;
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+  margin: 0 auto; 
+  transition: all 200ms linear;
+  padding-top: 10px;
+}
+
+.cert-link {
+  justify-content: center;
+  position: relative;
+  display: inline-flex;
+  flex-direction: row;
+  width: calc(100% - 20px);
+  height: 70px;
+  background-color: #1e2124;
+  margin: 10px auto;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  transition: all 400ms linear;
+  text-decoration: none;
+}
+
+.cert-ico {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  background-color: transparent;
+}
+
+.cert-name {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  width: calc(100% - 77px);
+  height: 54px;
+  margin: 5px 5px 5px 0px;
+  background-color: transparent;
+  justify-content: left;
+  align-items: center;
+  align-content: left;
+  text-align: left;
+  font-size: 20px;
+  padding: 3px;
+  color: #e0e0e0;
+}
+
+.cert-link:hover {
+  background-color: #282b30;
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+.about-me-footer {
+  position: relative;
+  float: bottom;
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 900px) {
+  .about-me-timelines {
+    margin: 0 auto;
+  }
+  .certs {
+    margin: 0 auto;
+  }
+  .cert-name {
+    font-size: 15px;
+  }
+}
