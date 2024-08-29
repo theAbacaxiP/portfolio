@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.66db50b9.css",
+    "main.js": "/portfolio/static/js/main.e1d50bbc.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/id cards.png": "/portfolio/static/media/id cards.c4758361d810cd82c953.png",
+    "static/media/thumbnail.png": "/portfolio/static/media/thumbnail.02fbbe56da734ec591fe.png",
+    "static/media/posts-wallpaper.png": "/portfolio/static/media/posts-wallpaper.81f8c360c571485b5856.png",
+    "static/media/about-me-transparent.png": "/portfolio/static/media/about-me-transparent.764dfb6f88b74310a5b7.png",
+    "static/media/main event.png": "/portfolio/static/media/main event.694c74ed480d5c393a71.png",
+    "static/media/hacker.jpg": "/portfolio/static/media/hacker.3533357b054ef0936fff.jpg",
+    "static/media/database.jpg": "/portfolio/static/media/database.2e904a60b98b922a72b4.jpg",
+    "static/media/404_error.jpg": "/portfolio/static/media/404_error.291c471e5ac5782df46c.jpg",
+    "static/media/hsv.png": "/portfolio/static/media/hsv.cc52ef1b5121f8706841.png",
+    "static/media/matlab-onramp.pdf": "/portfolio/static/media/matlab-onramp.9c9f32402074fc32f879.pdf",
+    "static/media/home_graphic.png": "/portfolio/static/media/home_graphic.cd0a8082791cc3167988.png",
+    "static/media/about-me-full.jpg": "/portfolio/static/media/about-me-full.4fe8b0c53e568cd2ede0.jpg",
+    "static/media/projects-icon.jpg": "/portfolio/static/media/projects-icon.7cfaf3bc10e45a0ddc66.jpg",
+    "static/media/EEE chasis.jfif": "/portfolio/static/media/EEE chasis.46125ab37bcc47347716.jfif",
+    "static/media/matlab.png": "/portfolio/static/media/matlab.10801ab284b977b86e6e.png",
+    "static/media/google.png": "/portfolio/static/media/google.0b50af2fbb8c1e8ca23e.png",
+    "static/media/blogs-icon.svg": "/portfolio/static/media/blogs-icon.d21cc0c7eb1c827ac7df113659d881ab.svg",
+    "index.html": "/portfolio/index.html",
+    "main.66db50b9.css.map": "/portfolio/static/css/main.66db50b9.css.map",
+    "main.e1d50bbc.js.map": "/portfolio/static/js/main.e1d50bbc.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66db50b9.css",
+    "static/js/main.e1d50bbc.js"
+  ]
+}
