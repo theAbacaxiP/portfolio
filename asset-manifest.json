@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ab9327e6.css",
-    "main.js": "/static/js/main.b2c7682c.js",
+    "main.js": "/static/js/main.1c17d12c.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
     "static/media/id cards.png": "/static/media/id cards.c4758361d810cd82c953.png",
     "static/media/thumbnail.png": "/static/media/thumbnail.02fbbe56da734ec591fe.png",
@@ -16,17 +16,20 @@
     "static/media/home_graphic.png": "/static/media/home_graphic.cd0a8082791cc3167988.png",
     "static/media/about-me-full.jpg": "/static/media/about-me-full.4fe8b0c53e568cd2ede0.jpg",
     "static/media/projects-icon.jpg": "/static/media/projects-icon.7cfaf3bc10e45a0ddc66.jpg",
+    "static/media/app_icons.jpg": "/static/media/app_icons.05b9758b6c916c31e880.jpg",
     "static/media/EEE chasis.jfif": "/static/media/EEE chasis.46125ab37bcc47347716.jfif",
+    "static/media/telegram_posts.png": "/static/media/telegram_posts.2b98d38359a788fae988.png",
+    "static/media/pavel_durov.png": "/static/media/pavel_durov.8437a3774b13920946bf.png",
     "static/media/matlab.png": "/static/media/matlab.10801ab284b977b86e6e.png",
     "static/media/google.png": "/static/media/google.0b50af2fbb8c1e8ca23e.png",
     "static/media/blogs-icon.svg": "/static/media/blogs-icon.d21cc0c7eb1c827ac7df113659d881ab.svg",
     "index.html": "/index.html",
     "main.ab9327e6.css.map": "/static/css/main.ab9327e6.css.map",
-    "main.b2c7682c.js.map": "/static/js/main.b2c7682c.js.map",
+    "main.1c17d12c.js.map": "/static/js/main.1c17d12c.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ab9327e6.css",
-    "static/js/main.b2c7682c.js"
+    "static/js/main.1c17d12c.js"
   ]
 }
