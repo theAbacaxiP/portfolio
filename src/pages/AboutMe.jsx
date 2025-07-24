@@ -9,7 +9,8 @@ import matlab_onramp from '../Assets/matlab-onramp.pdf';
 function AboutMe(){
 
   useEffect(() => {
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
+    document.title = 'KyanePerera | About me';
   }, [])
 
   var sum_1 = 'Undergraduate electronic and computer engineering student pursuing a career in cyber security, with aspirations of being an ethical hacker.';

@@ -135,8 +135,35 @@
   text-decoration: none;
   text-decoration-line: none;
   transition: all 75ms linear;
+  color: #d2d0d0;
+}
+
+.thumbnail-publish {
+  position: relative;
+  align-self: center;
+  height: 10px;
+  width: calc(100% - 20px);
+  min-width: 148px;
+  overflow: hidden;
+  float: bottom;
+  font-size: 10px;
+  padding: 10px;
+  text-decoration: none;
+  text-decoration-line: none;
+  transition: all 75ms linear;
+  color: #b0aeae;
 }
 
 .thumbnail:hover {
   color: #ffffff;
+}
+
+@media only screen and (min-width: 900px) {
+  .thumbnail-title {
+    font-size: 23px;
+  }
+  .thumbnail-publish {
+    font-size: 13px;
+    height: 13px;
+  }
 }

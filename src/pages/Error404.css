@@ -1,7 +1,7 @@
 .fullscreen {
   background-color: #ffffff;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   top: 0;
   left: 0;
   display: inline-flex;
@@ -11,7 +11,7 @@
 .homeGuide {
   float: left;
   top: 55px;
-  position: absolute;
+  position: relative;
   padding-left: 30px;
   font-size: 10px;
   color: #403f3f;
@@ -20,14 +20,14 @@
 .otherGuide {
   float: right;
   top: 55px;
-  position: absolute;
+  position: relative;
   padding-right: 60px;
   right: 0px;
   font-size: 10px;
   color: #403f3f;
 }
 .image_404container {
-  position: absolute;
+  position: relative;
   width: calc(100% - 20px);
   margin: 10px;
   height: 80vh;

@@ -27,14 +27,15 @@ function Blog_1(){
   var ref_12 = 'https://npd.pentester.com/';
 
   useEffect(() => {
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
+    document.title = 'KyanePerera | The National Public Data breach';
   }, [])
 
     return (
         <>
           <Page>
             <Header_1 text = 'The National Public Data breach'/>
-            <Credit date='29/08/2024' author='Kyane Perera'/>
+            <Credit date='29/08/2024' author='Kyane Perera' edit='01/09/2024'/>
             <Block>
               <Media source={database} Width={'40%'} minWidth={'170px'} 
                              caption={'Database, photographed by Panumas Nikhomkhai'} maxWidth={'400px'} 
@@ -42,13 +43,13 @@ function Blog_1(){
               <Label text={text_1}/>
               <Label text={text_2}/>
             </Block>
-            <Header_2 text = 'Who were malicious actors?'/>
+            <Header_2 text = 'Who were the malicious actors?'/>
             <Block>
               <Media source={hacker} Width={'40%'} minWidth={'170px'} 
                              caption={'Hacker, photographed by Ashutosh Sonwani'} maxWidth={'250px'} 
                              Float={'left'}/>
               <Label text={text_3}/>
-              <Header_2 text = 'How does this effects the victims?'/>
+              <Header_2 text = 'How does this affect the victims?'/>
               <Label text={text_4}/>
             </Block>
             

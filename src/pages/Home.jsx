@@ -7,7 +7,8 @@ import Footer from '../components/Footer.jsx';
 function Home() {
 
   useEffect(() => {
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
+    document.title = 'KyanePerera | Home';
   }, [])
 
   return (

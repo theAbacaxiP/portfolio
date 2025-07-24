@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 import PostBlock, {Thumbnail} from '../components/PostBlock.jsx';
-import eee_bot from '../Posts/project_1/thumbnail.png';
+import eee_bot from '../Posts/project_1/thumbnail.jpg';
 
 function ProjectsView(){
 
@@ -10,7 +10,8 @@ function ProjectsView(){
   const Title = 'Projects';
 
   useEffect(() => {
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
+    document.title = 'KyanePerera | Projects';
   }, [])
 
     return (
@@ -20,7 +21,8 @@ function ProjectsView(){
               thumbnail_src={eee_bot}
               title='The EEE Bot - Year 1 project'
               page_src='/projects/project-1'
-              accentColor={accent_color}/>
+              accentColor={accent_color}
+              publish='29/08/2024'/>
           </PostBlock>
         </>
     );

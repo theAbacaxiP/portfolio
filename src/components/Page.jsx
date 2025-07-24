@@ -67,7 +67,7 @@ export function Label ({ text }) {
   );
 };
 
-export function Credit ({ date, author }) {
+export function Credit ({ date, author, edit }) {
 
   const creditStyle = {
     'margin-bottom' : '20px',
@@ -76,6 +76,7 @@ export function Credit ({ date, author }) {
   return (
       <>
         <p className='credit-block'> Posted: {date} </p>
+        {edit ? <p className='credit-block'> Last Edited: : {edit} </p> : false}
         <p className='credit-block' style={creditStyle}> Authored by {author} </p>
       </>
   );

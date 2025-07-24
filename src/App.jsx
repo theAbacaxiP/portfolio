@@ -1,5 +1,5 @@
 import React  from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter  as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Navigation from './components/Navigation.jsx';
 import Home from './pages/Home.jsx';
@@ -9,6 +9,7 @@ import Error404 from './pages/Error404.jsx';
 import AboutMe from './pages/AboutMe.jsx';
 import Project_1 from './Posts/project_1/Project_1.jsx';
 import Blog_1 from './Posts/blog_1/Blog_1.jsx';
+import Blog_2 from './Posts/blog_2/Blog_2.jsx';
 
 function App() {
 
@@ -28,7 +29,8 @@ function App() {
           <Route path='/about-me' element={<AboutMe/>}/>
           <Route path='*' element={<Error404/>}/>
           <Route path='/projects/project-1' element={<Project_1/>}/>
-          <Route path='/projects/blog-1' element={<Blog_1/>}/>
+          <Route path='/blog/blog-1' element={<Blog_1/>}/>
+          <Route path='/blog/blog-2' element={<Blog_2/>}/>
         </Routes>
       </Router>
     </>

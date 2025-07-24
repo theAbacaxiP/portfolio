@@ -21,7 +21,8 @@ function Error404(){
     });
 
     useEffect(() => {
-      window.scrollTo(0, 0)
+      window.scrollTo(0, 0);
+      document.title = 'KyanePerera | Error404';
     }, [])
 
     return (

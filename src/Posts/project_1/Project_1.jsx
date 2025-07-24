@@ -7,7 +7,8 @@ import hsv from './hsv.png';
 function Project_1(){
 
   useEffect(() => {
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
+    document.title = 'KyanePerera | The EEE Bot';
   }, [])
 
     return (

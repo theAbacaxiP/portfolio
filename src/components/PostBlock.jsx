@@ -9,6 +9,7 @@ export const Thumbnail = ({
   title, 
   thumbnail_src, 
   page_src,
+  publish,
   accentColor 
 
 
@@ -28,6 +29,7 @@ export const Thumbnail = ({
                 <img className='thumbnail-image' src={thumbnail_src}/>
               </div>
               <div className='thumbnail-title'>{title}</div>
+              <div className='thumbnail-publish'>Posted: {publish}</div>
             </div>
           </>
           </Link>
