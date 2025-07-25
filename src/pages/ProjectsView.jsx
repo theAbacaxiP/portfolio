@@ -29,7 +29,7 @@ function ProjectsView(){
               title='Pulse oximeter - Year 2 project 1'
               page_src='/projects/project-2'
               accentColor={accent_color}
-              publish='25/07/2025'/>
+              publish='26/07/2025'/>
           </PostBlock>
         </>
     );

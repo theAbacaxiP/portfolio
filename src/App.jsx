@@ -8,7 +8,7 @@ import BlogView from './pages/BlogView.jsx';
 import Error404 from './pages/Error404.jsx';
 import AboutMe from './pages/AboutMe.jsx';
 import Project_1 from './Posts/project_1/Project_1.jsx';
-import Project_1 from './Posts/project_2/Project_2.jsx';
+import Project_2 from './Posts/project_2/Project_2.jsx';
 import Blog_1 from './Posts/blog_1/Blog_1.jsx';
 import Blog_2 from './Posts/blog_2/Blog_2.jsx';
 
