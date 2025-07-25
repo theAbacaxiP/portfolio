@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react';
 import PostBlock, {Thumbnail} from '../components/PostBlock.jsx';
 import eee_bot from '../Posts/project_1/thumbnail.jpg';
+import pulse_oxy from '../Posts/project_2/MPGA.jpg';
 
 function ProjectsView(){
 
@@ -23,10 +24,15 @@ function ProjectsView(){
               page_src='/projects/project-1'
               accentColor={accent_color}
               publish='29/08/2024'/>
+            <Thumbnail 
+              thumbnail_src={pulse_oxy}
+              title='Pulse oximeter - Year 2 project 1'
+              page_src='/projects/project-2'
+              accentColor={accent_color}
+              publish='25/07/2025'/>
           </PostBlock>
         </>
     );
-
 };
 
 export default ProjectsView;
