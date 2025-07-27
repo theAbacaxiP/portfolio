@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 import './PostBlock.css';
 import Footer from './Footer.jsx';
@@ -19,6 +19,18 @@ export const Thumbnail = ({
     'border-color':`${accentColor}`,
   };
 
+  const [imgStyle, setImgStyle] = useState({});
+
+  const handleImageLoad = (e) => {
+    const { naturalWidth, naturalHeight } = e.target;
+    const landscape = naturalWidth > naturalHeight;
+    setImgStyle(
+      landscape
+        ? { height: '100%', width: 'auto' }
+        : { width: '100%', height: 'auto' }
+    );
+  };
+
 
     return (
         <>
@@ -26,7 +38,11 @@ export const Thumbnail = ({
           <>
             <div className='thumbnail-contents'>
               <div className='thumbnail-image-container'>
-                <img className='thumbnail-image' src={thumbnail_src}/>
+                <img className='thumbnail-image' 
+                  src={thumbnail_src}
+                  onload={handleImageLoad}
+                  style={imgStyle}
+                />
               </div>
               <div className='thumbnail-title'>{title}</div>
               <div className='thumbnail-publish'>Posted: {publish}</div>

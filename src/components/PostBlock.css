@@ -111,6 +111,7 @@
   height: 70%;
   width: 100%;
   min-width: 148px;
+  max-height: 110px;
   overflow: hidden;
   float: top;
 }
@@ -141,7 +142,6 @@
 .thumbnail-publish {
   position: relative;
   align-self: center;
-  height: 10px;
   width: calc(100% - 20px);
   min-width: 148px;
   overflow: hidden;

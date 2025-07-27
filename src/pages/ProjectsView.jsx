@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import PostBlock, {Thumbnail} from '../components/PostBlock.jsx';
 import eee_bot from '../Posts/project_1/thumbnail.jpg';
-import pulse_oxy from '../Posts/project_2/thumbnail.png';
+import pulse_oxy from '../Posts/project_2/thumbnail.jpeg';
 
 function ProjectsView(){
 
